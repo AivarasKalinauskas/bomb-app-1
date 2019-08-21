@@ -1,3 +1,5 @@
-export default function hello() {
-	console.log("this is explosives");
+export default class Explosives {
+	constructor() {
+		console.log("explosives constructor");
+	}
 }

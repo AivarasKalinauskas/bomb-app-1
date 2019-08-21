@@ -1,4 +1,3 @@
-import helloExplosives from "./explosives.js";
+import Bomb from "./bomb.js";
 
-console.log("this is main script");
-helloExplosives();
+const bomb = new Bomb();
